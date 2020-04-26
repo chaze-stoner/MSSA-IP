@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace MSSA_IP.Data.Migrations
+namespace MSSA_IP.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200425181934_First-Migration")]
-    partial class FirstMigration
+    [DbContext(typeof(ApplicationDBContext))]
+    [Migration("20200426134020_CreateIdentitySchema")]
+    partial class CreateIdentitySchema
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
